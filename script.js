@@ -51,8 +51,8 @@ function iniciarJogo() {
     //Mantém a tecla como "falso" para não realizar ação
     document.addEventListener('keyup', keyUp1, false);
     document.addEventListener('keydown', keyDown1, false);
-    document.addEventListener('keyup', keyUp2, false);
-    document.addEventListener('keydown', keyDown2, false);
+    document.addEventListener('keyup', keyDown2, false);
+    document.addEventListener('keydown', keyUp2, false);
 
     setInterval(loopGame, 30);
 }
