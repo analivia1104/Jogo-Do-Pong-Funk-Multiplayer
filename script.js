@@ -236,7 +236,7 @@ function loopGame() {
     }
 
     context.font = "38pt Arial"; // tamanho e fonte
-    context.fillStyle = "#FFFFFF"; //Seleciona a cor
+    context.fillStyle = "#000000"; //Seleciona a cor
     context.fillText(pontosA + "  " + pontosB, (canvas.width / 2) - 70 , 70); // escrevendo texto no centro da tela no top
 
 
