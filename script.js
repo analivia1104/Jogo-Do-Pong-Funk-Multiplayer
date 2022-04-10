@@ -43,7 +43,7 @@ function iniciarJogo() {
     bolaAngulo = Math.floor(Math.random() * 21) - 10; // faz bola ir para uma direção aleatória.
     bolaTempo = 0;
     velocidadeJogador = 15;
-    velocidadeOponente = 30;
+    velocidadeOponente = 15;
     velocidadeBola = 20;
     pontosJogador = 0;
     pontosOponente = 0;
